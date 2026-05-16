@@ -9,7 +9,7 @@ def validar_nota(mensagem, min_val, max_val):
         except ValueError:
             print("Erro: Digite um número válido.")
 
-total_alunos = 5
+total_alunos = 100
 aprovados = 0
 reprovados = 0
 #soma das notas
