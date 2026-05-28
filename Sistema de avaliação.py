@@ -47,12 +47,12 @@ for i in range(1, total_alunos + 1):
             reprovados += 1
         print(f"Status Final: {status}")
 # relatorio final dos alunos aprovados e reprovados  
-print("\n" + "="*50)
+print("\n" + "="*35)
 print("RELATORIO FINAL")
-print("="*50)
+print("="*35)
 print(f"Total de alunos: {total_alunos}")
 print(f"Alunos aprovados: {aprovados}")
 print(f"Alunos reprovados: {reprovados}")
 print(f"\nPorcentagem de APROVADOS: {(aprovados/total_alunos)*100:.2f}%")
 print(f"Porcentagem de REPROVADOS: {(reprovados/total_alunos)*100:.2f}%")
-print("="*50)
+print("="*35)
